@@ -16,6 +16,7 @@
 		84E5E2AE1C315BCB001EC97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E5E2AC1C315BCB001EC97E /* LaunchScreen.storyboard */; };
 		84E5E2B91C315BCB001EC97E /* ButtonsHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E2B81C315BCB001EC97E /* ButtonsHomeworkTests.m */; };
 		84E5E2C41C315BCB001EC97E /* ButtonsHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E2C31C315BCB001EC97E /* ButtonsHomeworkUITests.m */; };
+		84E5E2D31C31B536001EC97E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E5E2D21C31B536001EC97E /* background.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84E5E2BF1C315BCB001EC97E /* ButtonsHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonsHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E5E2C31C315BCB001EC97E /* ButtonsHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonsHomeworkUITests.m; sourceTree = "<group>"; };
 		84E5E2C51C315BCB001EC97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E5E2D11C31B08E001EC97E /* TaskDescriotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskDescriotion.h; sourceTree = "<group>"; };
+		84E5E2D21C31B536001EC97E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		84E5E29A1C315BCB001EC97E /* ButtonsHomework */ = {
 			isa = PBXGroup;
 			children = (
+				84E5E2D11C31B08E001EC97E /* TaskDescriotion.h */,
 				84E5E29E1C315BCB001EC97E /* AppDelegate.h */,
 				84E5E29F1C315BCB001EC97E /* AppDelegate.m */,
 				84E5E2A11C315BCB001EC97E /* ViewController.h */,
@@ -120,6 +124,7 @@
 		84E5E29B1C315BCB001EC97E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84E5E2D21C31B536001EC97E /* background.jpg */,
 				84E5E29C1C315BCB001EC97E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -247,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E5E2AE1C315BCB001EC97E /* LaunchScreen.storyboard in Resources */,
+				84E5E2D31C31B536001EC97E /* background.jpg in Resources */,
 				84E5E2AB1C315BCB001EC97E /* Assets.xcassets in Resources */,
 				84E5E2A61C315BCB001EC97E /* Main.storyboard in Resources */,
 			);
@@ -502,6 +508,7 @@
 				84E5E2CA1C315BCB001EC97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E5E2CB1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "ButtonsHomeworkTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				84E5E2CD1C315BCB001EC97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E5E2CE1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "ButtonsHomeworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				84E5E2D01C315BCB001EC97E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
