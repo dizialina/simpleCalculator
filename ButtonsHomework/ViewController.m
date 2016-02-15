@@ -95,9 +95,14 @@
 
 - (IBAction) dotAction:(UIButton *) sender {
     
-    [currentNumber appendString:sender.currentTitle];
+    NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:currentNumber];
     
-    self.monitorLabel.text = currentNumber;
+    if (![set characterIsMember:'.']) {
+    
+        [currentNumber appendString:sender.currentTitle];
+    
+        self.monitorLabel.text = currentNumber;
+    }
     
 }
 
