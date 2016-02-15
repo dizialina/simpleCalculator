@@ -16,7 +16,7 @@
 		84E5E2AE1C315BCB001EC97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E5E2AC1C315BCB001EC97E /* LaunchScreen.storyboard */; };
 		84E5E2B91C315BCB001EC97E /* ButtonsHomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E2B81C315BCB001EC97E /* ButtonsHomeworkTests.m */; };
 		84E5E2C41C315BCB001EC97E /* ButtonsHomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E2C31C315BCB001EC97E /* ButtonsHomeworkUITests.m */; };
-		84E5E2D31C31B536001EC97E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E5E2D21C31B536001EC97E /* background.jpg */; settings = {ASSET_TAGS = (); }; };
+		84E5E2D31C31B536001EC97E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E5E2D21C31B536001EC97E /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84E5E2981C315BCB001EC97E /* ButtonsHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonsHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E5E2981C315BCB001EC97E /* SimpleCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E5E29C1C315BCB001EC97E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E5E29E1C315BCB001EC97E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E5E29F1C315BCB001EC97E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,13 +48,12 @@
 		84E5E2AA1C315BCB001EC97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E5E2AD1C315BCB001EC97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E5E2AF1C315BCB001EC97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84E5E2B41C315BCB001EC97E /* ButtonsHomeworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonsHomeworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E5E2B41C315BCB001EC97E /* SimpleCalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E5E2B81C315BCB001EC97E /* ButtonsHomeworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonsHomeworkTests.m; sourceTree = "<group>"; };
 		84E5E2BA1C315BCB001EC97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84E5E2BF1C315BCB001EC97E /* ButtonsHomeworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonsHomeworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E5E2BF1C315BCB001EC97E /* SimpleCalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E5E2C31C315BCB001EC97E /* ButtonsHomeworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonsHomeworkUITests.m; sourceTree = "<group>"; };
 		84E5E2C51C315BCB001EC97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84E5E2D11C31B08E001EC97E /* TaskDescriotion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskDescriotion.h; sourceTree = "<group>"; };
 		84E5E2D21C31B536001EC97E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../Downloads/background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,9 +95,9 @@
 		84E5E2991C315BCB001EC97E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84E5E2981C315BCB001EC97E /* ButtonsHomework.app */,
-				84E5E2B41C315BCB001EC97E /* ButtonsHomeworkTests.xctest */,
-				84E5E2BF1C315BCB001EC97E /* ButtonsHomeworkUITests.xctest */,
+				84E5E2981C315BCB001EC97E /* SimpleCalculator.app */,
+				84E5E2B41C315BCB001EC97E /* SimpleCalculator.xctest */,
+				84E5E2BF1C315BCB001EC97E /* SimpleCalculator.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +105,6 @@
 		84E5E29A1C315BCB001EC97E /* ButtonsHomework */ = {
 			isa = PBXGroup;
 			children = (
-				84E5E2D11C31B08E001EC97E /* TaskDescriotion.h */,
 				84E5E29E1C315BCB001EC97E /* AppDelegate.h */,
 				84E5E29F1C315BCB001EC97E /* AppDelegate.m */,
 				84E5E2A11C315BCB001EC97E /* ViewController.h */,
@@ -151,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		84E5E2971C315BCB001EC97E /* ButtonsHomework */ = {
+		84E5E2971C315BCB001EC97E /* SimpleCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84E5E2C81C315BCB001EC97E /* Build configuration list for PBXNativeTarget "ButtonsHomework" */;
+			buildConfigurationList = 84E5E2C81C315BCB001EC97E /* Build configuration list for PBXNativeTarget "SimpleCalculator" */;
 			buildPhases = (
 				84E5E2941C315BCB001EC97E /* Sources */,
 				84E5E2951C315BCB001EC97E /* Frameworks */,
@@ -163,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = ButtonsHomework;
+			name = SimpleCalculator;
 			productName = ButtonsHomework;
-			productReference = 84E5E2981C315BCB001EC97E /* ButtonsHomework.app */;
+			productReference = 84E5E2981C315BCB001EC97E /* SimpleCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		84E5E2B31C315BCB001EC97E /* ButtonsHomeworkTests */ = {
+		84E5E2B31C315BCB001EC97E /* SimpleCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84E5E2CB1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "ButtonsHomeworkTests" */;
+			buildConfigurationList = 84E5E2CB1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "SimpleCalculatorTests" */;
 			buildPhases = (
 				84E5E2B01C315BCB001EC97E /* Sources */,
 				84E5E2B11C315BCB001EC97E /* Frameworks */,
@@ -181,14 +179,14 @@
 			dependencies = (
 				84E5E2B61C315BCB001EC97E /* PBXTargetDependency */,
 			);
-			name = ButtonsHomeworkTests;
+			name = SimpleCalculatorTests;
 			productName = ButtonsHomeworkTests;
-			productReference = 84E5E2B41C315BCB001EC97E /* ButtonsHomeworkTests.xctest */;
+			productReference = 84E5E2B41C315BCB001EC97E /* SimpleCalculator.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84E5E2BE1C315BCB001EC97E /* ButtonsHomeworkUITests */ = {
+		84E5E2BE1C315BCB001EC97E /* SimpleCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84E5E2CE1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "ButtonsHomeworkUITests" */;
+			buildConfigurationList = 84E5E2CE1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "SimpleCalculatorUITests" */;
 			buildPhases = (
 				84E5E2BB1C315BCB001EC97E /* Sources */,
 				84E5E2BC1C315BCB001EC97E /* Frameworks */,
@@ -199,9 +197,9 @@
 			dependencies = (
 				84E5E2C11C315BCB001EC97E /* PBXTargetDependency */,
 			);
-			name = ButtonsHomeworkUITests;
+			name = SimpleCalculatorUITests;
 			productName = ButtonsHomeworkUITests;
-			productReference = 84E5E2BF1C315BCB001EC97E /* ButtonsHomeworkUITests.xctest */;
+			productReference = 84E5E2BF1C315BCB001EC97E /* SimpleCalculator.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,6 +213,7 @@
 				TargetAttributes = {
 					84E5E2971C315BCB001EC97E = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 4YFHH255JS;
 					};
 					84E5E2B31C315BCB001EC97E = {
 						CreatedOnToolsVersion = 7.0;
@@ -226,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84E5E2931C315BCB001EC97E /* Build configuration list for PBXProject "ButtonsHomework" */;
+			buildConfigurationList = 84E5E2931C315BCB001EC97E /* Build configuration list for PBXProject "SimpleCalculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -239,9 +238,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84E5E2971C315BCB001EC97E /* ButtonsHomework */,
-				84E5E2B31C315BCB001EC97E /* ButtonsHomeworkTests */,
-				84E5E2BE1C315BCB001EC97E /* ButtonsHomeworkUITests */,
+				84E5E2971C315BCB001EC97E /* SimpleCalculator */,
+				84E5E2B31C315BCB001EC97E /* SimpleCalculatorTests */,
+				84E5E2BE1C315BCB001EC97E /* SimpleCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		84E5E2B61C315BCB001EC97E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84E5E2971C315BCB001EC97E /* ButtonsHomework */;
+			target = 84E5E2971C315BCB001EC97E /* SimpleCalculator */;
 			targetProxy = 84E5E2B51C315BCB001EC97E /* PBXContainerItemProxy */;
 		};
 		84E5E2C11C315BCB001EC97E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84E5E2971C315BCB001EC97E /* ButtonsHomework */;
+			target = 84E5E2971C315BCB001EC97E /* SimpleCalculator */;
 			targetProxy = 84E5E2C01C315BCB001EC97E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -423,10 +422,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ButtonsHomework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AE.ButtonsHomework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = AE.SimpleCalculator;
+				PRODUCT_NAME = SimpleCalculator;
 			};
 			name = Debug;
 		};
@@ -434,10 +434,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ButtonsHomework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AE.ButtonsHomework;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = AE.SimpleCalculator;
+				PRODUCT_NAME = SimpleCalculator;
 			};
 			name = Release;
 		};
@@ -448,8 +449,8 @@
 				INFOPLIST_FILE = ButtonsHomeworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AE.ButtonsHomeworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonsHomework.app/ButtonsHomework";
+				PRODUCT_NAME = SimpleCalculator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalculator.app/SimpleCalculator";
 			};
 			name = Debug;
 		};
@@ -460,8 +461,8 @@
 				INFOPLIST_FILE = ButtonsHomeworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AE.ButtonsHomeworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ButtonsHomework.app/ButtonsHomework";
+				PRODUCT_NAME = SimpleCalculator;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalculator.app/SimpleCalculator";
 			};
 			name = Release;
 		};
@@ -471,7 +472,7 @@
 				INFOPLIST_FILE = ButtonsHomeworkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AE.ButtonsHomeworkUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpleCalculator;
 				TEST_TARGET_NAME = ButtonsHomework;
 				USES_XCTRUNNER = YES;
 			};
@@ -483,7 +484,7 @@
 				INFOPLIST_FILE = ButtonsHomeworkUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AE.ButtonsHomeworkUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SimpleCalculator;
 				TEST_TARGET_NAME = ButtonsHomework;
 				USES_XCTRUNNER = YES;
 			};
@@ -492,7 +493,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84E5E2931C315BCB001EC97E /* Build configuration list for PBXProject "ButtonsHomework" */ = {
+		84E5E2931C315BCB001EC97E /* Build configuration list for PBXProject "SimpleCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84E5E2C61C315BCB001EC97E /* Debug */,
@@ -501,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84E5E2C81C315BCB001EC97E /* Build configuration list for PBXNativeTarget "ButtonsHomework" */ = {
+		84E5E2C81C315BCB001EC97E /* Build configuration list for PBXNativeTarget "SimpleCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84E5E2C91C315BCB001EC97E /* Debug */,
@@ -510,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84E5E2CB1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "ButtonsHomeworkTests" */ = {
+		84E5E2CB1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "SimpleCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84E5E2CC1C315BCB001EC97E /* Debug */,
@@ -519,7 +520,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84E5E2CE1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "ButtonsHomeworkUITests" */ = {
+		84E5E2CE1C315BCB001EC97E /* Build configuration list for PBXNativeTarget "SimpleCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84E5E2CF1C315BCB001EC97E /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ButtonsHomework.xcodeproj">
+      location = "self:/Users/admin/untitled folder/ButtonsHomework/SimpleCalculator.xcodeproj">
    </FileRef>
 </Workspace>
