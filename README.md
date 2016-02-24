@@ -18,3 +18,7 @@ It contains a keyboard with buttons for digits and arithmetical operations and d
 4. NSCharacterSet for checking what symbols was used for prventing their repeat (expecially dot symbol).
 5. Analyse output screen to not allow user to make nonlogic actions (for examle entering more than one zero in front of number).  
 5. NSMutableString and its methods for combining numbers in output screen, showing them in right sequence, add number after every click on digits button and make arithmetical operations with this string.  
+
+##Screenshots:
+![Alt text](http://clip2net.com/clip/m496854/5f0e0-clip-90kb.jpg "Optional title")
+![Alt text](http://clip2net.com/clip/m496854/848fc-clip-89kb.jpg "Optional title")
